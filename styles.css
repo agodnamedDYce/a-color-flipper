@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: #eceff1;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #eceff1;
+    padding: 1rem 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid; /* Remove static color, just keep the border width */
+    border-radius: 0 0 15px 15px;
+  }
+  
+  
+  nav {
+    width: 100%;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+    gap: 2rem;
+  }
+  
+  .color-box {
+    border: 3px solid black;
+    width: 60%;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .action-btn {
+    padding: 1rem 1.9rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .toggle-mode {
+    cursor: pointer;
+    text-decoration: none; /* Removed underline */
+    font-weight: bold;
+    color: #d2691e; /* Changed color for better visibility */
+  }
+  
